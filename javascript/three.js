@@ -7,4 +7,6 @@ class accounts{
 }
 let c5= new accounts()
 const {min_Bal,Id,Name,Deposit}=require('./twothis')
-console.log
+
+console.log(c1);
+console.log(c2);
