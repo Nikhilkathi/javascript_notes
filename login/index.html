@@ -10,21 +10,22 @@
     <title>Document</title>
 </head>
 <body>
+
     <div class="contanier">
-        <div class="row mt-20px">
+        <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <div class="card" width="15rem">
+                <div class="card" width="10rem">
                     <h3>Welcome</h3>
                     <form class="form-signin" id="formspage">
                         <div class="form-group">
                         <p>Email:</p>
-                        <input type="text" class="form-control" placeholder="Enter your email">
+                        <input type="text" id="email" class="form-control" placeholder="Enter your email">
                         <p>Password:</p>
-                        <input type="text" class="form-control" placeholder="Enter your password">
+                        <input type="password" id="password" class="form-control" placeholder="Enter your password">
                         
                         </div>
-                        <button class="btn btn-primary btn-lg" type="submit">Sign in</button>
+                        <button class="btn btn-primary btn-lg" type="submit" onclick="value()">Sign in</button>
                     </form>
                 </div>
             </div>
