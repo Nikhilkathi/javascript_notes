@@ -4,10 +4,13 @@
 } */
 html,body{
     height: 100%;
+    width: 100%;
 }
 body{
     background-image:url("https://wallpaperaccess.com/full/1900851.png");
     background-size: cover;
+    padding: 0px;
+    margin-top:20rem;
 }
 /* body{
     display: -ms-flexbox;
