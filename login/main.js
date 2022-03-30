@@ -31,7 +31,7 @@ function validation(){
     var username=document.getElementById('email').value.trim;
     var passWord=document.getElementById('password').value.trim;
     for(i=0;i<=details.length;i++){
-        if (username == details.email[i] && passWord == details.passwords[i]) {
+        if (username == details[i] && passWord == details[i]) {
             console.log("login successfull.");
         }
     }
