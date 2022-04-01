@@ -1,0 +1,9 @@
+html{
+    margin:0;
+    padding:0
+}
+.container{
+    background: #000;
+    color: antiquewhite;
+    padding: 20%;
+}
