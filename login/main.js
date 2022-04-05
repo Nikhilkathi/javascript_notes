@@ -1,13 +1,4 @@
-// function value() {
-//     var username = document.getElementById('email').value;
-//     var passWord = document.getElementById('password').value;
-//     if (username == "" && passWord == "user") {
-//         alert("Login successful");
-//         return false;
-//     } else {
-//         alert("please enter correct details");
-//     }
-// }
+
 var details =[{email:'sonunikhil99@gmail.com',passwords:'123nikhil'},
 {email:'rroskell1@fastcompany.com',passwords:'6rC5UCj5A0g'},
 {email:'jpayfoot2@woothemes.com',passwords:'dP2gbT'},
@@ -27,20 +18,16 @@ var details =[{email:'sonunikhil99@gmail.com',passwords:'123nikhil'},
 //        return alert("Please enter correct details")
 //     }
 // }
-function validation(){
-    var username=document.getElementById('email').value.trim;
-    var passWord=document.getElementById('password').value.trim;
-    for(i=0;i<=details.length;i++){
-        if (username == details[i] && passWord == details[i]) {
-            console.log("login successfull.");
-        }
+function validation() {
+    // var username=document.getElementById('email').value.split;
+    // var passWord=document.getElementById('password').value.split;
+   for (var i=1;i<details.length;i++) {
+    if (username==details.test(email[i]) & passWord== details.test(passwords[i])) {
+        return alert("login successful");
+    } else {
+        return alert("please enter correct details")
     }
-console.log(validation());
 
-    // if(username.value===details.email && passWord.value===details.passwords ){
-    //     return alert("login successful");
-
-    // }else{
-    //     alert("please enter the correct details");
-    // }
+   }
 }
+console.log(validation())

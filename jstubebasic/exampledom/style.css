@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-color: rgb(114, 114, 110);
+    color: #fff;
+}
+.center{
+    background-color:#fff solid transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10rem;
+}
+.container{
+    margin-top: 10;
+}
+#button{
+    padding: 0% 6% 3% 3% ;
+    background-color: #fff;
+}
+#button1{
+    padding: 0% 6% 3% 3%;
+    background-color: blue;
+}
+#button2{
+    padding: 0% 6% 3% 3%;
+    background-color: purple;    
+}
+#button3{
+    padding: 0% 6% 3% 3%;
+    background-color: red;
+}
+#button4{
+    padding: 0% 6% 3% 3%;
+    background-color: yellow;
+}
+
