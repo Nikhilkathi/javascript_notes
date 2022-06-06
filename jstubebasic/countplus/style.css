@@ -1,9 +1,11 @@
 html{
     margin:0;
-    padding:0
+    padding:2rem
 }
 .container{
     background: #000;
     color: antiquewhite;
-    padding: 20%;
+    padding: 12rem;
+    position:relative;
+    text-align: center;
 }
